@@ -7,7 +7,7 @@ const data = {
 
 const getAllEmployees = (req, res) => {
   res.json(data.employees);
-};
+}
 
 const createNewEmployee = (req, res) => {
   const newEmployee = {
