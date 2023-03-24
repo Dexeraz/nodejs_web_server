@@ -25,6 +25,11 @@ app.get("/old-page(.html)?", (req, res) => {
 });
 
 // Route handlers
+app.get("/*", (req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "views", "404.html")); //withour status(404) we would get 200 status code
+});
+
+// Chaining route handlers
 app.get("/hello(.html)?", (req, res, next) => {
     console.log('attempted to load hello.html')
     next()
@@ -32,8 +37,21 @@ app.get("/hello(.html)?", (req, res, next) => {
     res.send('Hello World!');
 });
 
-app.get("/*", (req, res) => {
-  res.status(404).sendFile(path.join(__dirname, "views", "404.html")); //withour status(404) we would get 200 status code
-});
+const one = (req, res, next) => {
+    console.log('one');
+    next();
+}
+
+const two = (req, res, next) => {
+    console.log('two');
+    next();
+}
+
+const three = (req, res) => {
+    console.log('three');
+    res.send('Finished!');
+}
+
+app.get('/chain(.html)?', [one, two, three]);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
