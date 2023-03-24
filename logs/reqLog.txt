@@ -1,0 +1,2 @@
+20230324	12:13:15	88ec9963-8920-46bd-9872-b0f1f13e1b60	GET	undefined	/index.html
+20230324	12:13:15	62f7c65c-ace6-4ef4-bc31-1079122dc5d8	GET	undefined	/css/style.css
