@@ -42,3 +42,10 @@
 20230324	22:22:59	a9d9a442-ad38-42cb-863f-4dd96c883d42	GET	undefined	/css/style.css
 20230324	22:23:00	537b133d-372d-4211-855b-ef59eb95a4bc	GET	undefined	/
 20230324	22:23:00	0d6dd5dd-fa31-4fe3-a768-1c01c0500eb7	GET	undefined	/css/style.css
+20230326	12:20:33	c83cc50d-6fd1-401d-8378-c50b8fcde167	GET	undefined	/
+20230326	12:20:33	19f2c5aa-7eae-4602-a7a9-4a36d83f7522	GET	undefined	/css/style.css
+20230326	12:20:34	0701fb3b-7071-4673-af91-dc5fd5453cd9	GET	undefined	/favicon.ico
+20230326	12:23:47	8fa251dc-d7ee-41b1-b3ba-bb0b66f9e7f4	POST	undefined	/register
+20230326	12:26:41	f3cfb451-aade-4302-b5e8-b804cba60921	POST	undefined	/register
+20230326	12:26:50	949792da-9d59-4136-9e96-fba025a89741	POST	undefined	/register
+20230326	12:27:00	8996ad35-583c-49d9-a598-7ff94c0f5f09	POST	undefined	/register
