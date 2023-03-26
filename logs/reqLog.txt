@@ -49,3 +49,7 @@
 20230326	12:26:41	f3cfb451-aade-4302-b5e8-b804cba60921	POST	undefined	/register
 20230326	12:26:50	949792da-9d59-4136-9e96-fba025a89741	POST	undefined	/register
 20230326	12:27:00	8996ad35-583c-49d9-a598-7ff94c0f5f09	POST	undefined	/register
+20230326	13:02:58	83bf8fa4-1865-499e-b610-9e0610dd36e4	POST	undefined	/auth
+20230326	13:03:24	22d7d75d-4ebd-4e1e-a703-1bf50e0e82d5	POST	undefined	/auth
+20230326	13:03:40	b1a84662-9333-463e-a18b-a668ebd620de	POST	undefined	/auth
+20230326	13:04:01	36259020-e327-42a5-a24b-9a5a03863004	POST	undefined	/register
